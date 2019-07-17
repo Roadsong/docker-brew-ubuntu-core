@@ -1,0 +1,4 @@
+original: original Dockerfile fork from official institute.
+light: configured with some useful packages.
+medium: configured with some additional useful packages. (In development)
+armored: configured with some additional userful packages, try to be "complete". (In development)
