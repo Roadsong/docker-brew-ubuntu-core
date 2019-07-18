@@ -40,6 +40,6 @@ RUN set -xe \
 RUN mkdir -p /run/systemd && echo 'docker' > /run/systemd/container
 
 RUN apt-get update && \
-    apt install -y git build-essential python python3 objdump readelf net-tools
+    apt install -y vim git build-essential python python3 binutils coreutils moreutils net-tools curl wget
 # overwrite this with 'CMD []' in a dependent Dockerfile
 CMD ["/bin/bash"]
