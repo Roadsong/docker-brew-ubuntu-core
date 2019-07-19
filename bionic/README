@@ -1,4 +1,4 @@
-original: original Dockerfile fork from official institute.
+base: original Dockerfile fork from official institute.
 light: configured with some useful packages.
-medium: configured with some additional useful packages. (In development)
-armored: configured with some additional userful packages, try to be "complete". (In development)
+avta-node: configured with some additional useful packages for avta-node. (In development)
+avta-server: configured with some additional userful packages for avta-server. (In development) (Not include the source code and deployment process yet)
